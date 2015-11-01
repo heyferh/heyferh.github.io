@@ -1,11 +1,170 @@
 body {
-    padding-top: 100px;
+    background: #e3e3e3;
+    font-family: 'Roboto', sans-serif;
 }
-.starter-template {
-    padding: 40px 15px;
+
+.section-header {
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 25px;
+    line-height: 52px;
+    opacity: 0.7;
+}
+
+#about {
+    padding-top: 128px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
-.featurette{
-    padding: 60px;
+#about .container .intro {
+    background: #ffffff;
+    padding: 40px 25px 60px 25px;
+}
+
+#about .profile-pic {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+
+#about .profile-pic img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    margin-top: -70px;
+}
+
+#about .intro-content {
+    text-align: center;
+}
+
+#about .intro-content span {
+    font-size: 18px;
+    line-height: 34px;
+    color: #8a8a8b;
+    margin-bottom: 25px;
+}
+
+#about .intro-content p {
+    font-size: 15px;
+    line-height: 27px;
+    opacity: 0.7;
+    padding: 0 50px;
+}
+
+#about .intro-content h3 {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 35px;
+    line-height: 52px;
+    opacity: 0.7;
+}
+
+#education {
+    padding-top: 64px;
+}
+
+#education .container .content {
+    background: #ffffff;
+    padding: 40px 25px 60px 25px;
+}
+
+#education .container .content img {
+    margin: 20px;
+}
+
+#certified {
+    padding-top: 64px;
+}
+
+#certified .content {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+#certified .content img {
+    width: 400px;
+    margin: 0 20px;
+}
+
+#skills {
+    padding-top: 64px;
+}
+
+#skills .content {
+    background: #00796b;
+    color: #fff;
+    padding: 40px 30px;
+    opacity: 0.9;
+}
+
+#skills .content .skill-column {
+    padding: 10px;
+}
+
+#skills .content .skill-column .progress {
+    background-color: #004d40;
+    height: 3px;
+    overflow: visible;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#skills .content .skill-column .determinate {
+    background-color: #ffffff;
+    position: relative;
+    height: 3px;
+}
+
+#skills .content .skill-column .determinate .fa {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -7px;
+    right: 0px;
+    margin-left: 50%;
+}
+
+#works {
+    padding-top: 64px;
+}
+
+#contacts {
+    padding-top: 64px;
+}
+
+#contacts .content {
+    padding: 10px 50px;
+    text-align: center;
+    background: #ffffff;
+}
+
+#links .content {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#footer {
+    margin-top: 128px;
+}
+
+#footer ul {
+    text-align: center;
+}
+
+#footer ul li {
+    display: inline;
+}
+
+#certified .content {
+    background: #ffffff;
 }
