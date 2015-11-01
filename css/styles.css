@@ -82,6 +82,20 @@ body {
     margin: 20px;
 }
 
+#education .container .content h4 {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 30px;
+    line-height: 52px;
+    opacity: 0.7;
+}
+
+#education .content p {
+    font-size: 15px;
+    line-height: 27px;
+    opacity: 0.7;
+}
+
 #certified {
     padding-top: 64px;
 }
