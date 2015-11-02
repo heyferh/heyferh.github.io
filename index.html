@@ -237,22 +237,23 @@
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input id="name" type="text" class="validate">
+                                <input name="name" id="name" type="text">
                                 <label for="name">Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="email" type="email" class="validate">
-                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                                <input name="email" id="email" type="email">
+                                <label for="email">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <textarea name="messageText" id="message" class="materialize-textarea"></textarea>
                                 <label for="message">Message text</label>
                             </div>
                         </div>
                         <div class="row">
-                            <button class="btn waves-effect disabled" type="button">Submit
+                            <button class="btn waves-effect"
+                                    type="button" onclick="sendMessage()">Submit
                                 <i class="material-icons right">send</i>
                             </button>
                         </div>
@@ -293,6 +294,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/my.js"></script>
 <script>
     $(function () {
         $('a[href*=#]:not([href=#])').click(function () {
