@@ -182,3 +182,36 @@ body {
 #certified .content {
     background: #ffffff;
 }
+
+#footer .vk{
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  background: transparent url("../assets/icons/vk-circle.png");
+}
+
+#footer .vk:hover {
+  background-image: url("../assets/icons/vk-circle-hover.png");
+}
+
+#footer .github{
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  background: transparent url("../assets/icons/github-circle.png");
+}
+
+#footer .github:hover {
+  background-image: url("../assets/icons/github-circle-hover.png");
+}
+
+#footer .twitter{
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  background: transparent url("../assets/icons/twitter-circle.png");
+}
+
+#footer .twitter:hover {
+  background-image: url("../assets/icons/twitter-circle-hover.png");
+}
