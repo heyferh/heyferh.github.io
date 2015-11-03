@@ -171,6 +171,10 @@ body {
     margin-top: 128px;
 }
 
+#footer .page-footer {
+    padding-top: 0;
+}
+
 #footer ul {
     text-align: center;
 }
@@ -183,35 +187,39 @@ body {
     background: #ffffff;
 }
 
-#footer .vk{
-  width: 48px;
-  height: 48px;
-  display: inline-flex;
-  background: transparent url("../assets/icons/vk-circle.png");
+#footer .vk {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    opacity: 0.3;
+    background: transparent url("../assets/icons/vk-circle-hover.png");
 }
 
 #footer .vk:hover {
-  background-image: url("../assets/icons/vk-circle-hover.png");
+    opacity: 1;
+    background-image: url("../assets/icons/vk-circle-hover.png");
 }
 
-#footer .github{
-  width: 48px;
-  height: 48px;
-  display: inline-flex;
-  background: transparent url("../assets/icons/github-circle.png");
+#footer .github {
+    width: 48px;
+    height: 48px;
+    opacity: 0.3;
+    display: inline-flex;
+    background: transparent url("../assets/icons/github-circle-hover.png");
 }
 
 #footer .github:hover {
-  background-image: url("../assets/icons/github-circle-hover.png");
+    opacity: 1;
 }
 
-#footer .twitter{
-  width: 48px;
-  height: 48px;
-  display: inline-flex;
-  background: transparent url("../assets/icons/twitter-circle.png");
+#footer .twitter {
+    width: 48px;
+    height: 48px;
+    opacity: 0.2;
+    display: inline-flex;
+    background: transparent url("../assets/icons/twitter-circle-hover.png");
 }
 
 #footer .twitter:hover {
-  background-image: url("../assets/icons/twitter-circle-hover.png");
+    opacity: 1;
 }
