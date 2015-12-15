@@ -192,12 +192,11 @@ body {
     height: 48px;
     display: inline-flex;
     opacity: 0.3;
-    background: transparent url("../assets/icons/vk-circle-hover.png");
+    background: transparent url("../assets/icons/vk.png");
 }
 
 #footer .vk:hover {
     opacity: 1;
-    background-image: url("../assets/icons/vk-circle-hover.png");
 }
 
 #footer .github {
@@ -205,7 +204,7 @@ body {
     height: 48px;
     opacity: 0.3;
     display: inline-flex;
-    background: transparent url("../assets/icons/github-circle-hover.png");
+    background: transparent url("../assets/icons/github-circle.png");
 }
 
 #footer .github:hover {
@@ -217,7 +216,7 @@ body {
     height: 48px;
     opacity: 0.2;
     display: inline-flex;
-    background: transparent url("../assets/icons/twitter-circle-hover.png");
+    background: transparent url("../assets/icons/twitter.png");
 }
 
 #footer .twitter:hover {
