@@ -17,3 +17,12 @@ function sendMessage() {
         }
     });
 }
+
+function UserStats() {
+    this.startDate = new Date();
+    this.actions = [];
+
+    this.addAction = function (action) {
+        this.actions.push(action);
+    };
+}
