@@ -52,8 +52,7 @@ jQuery(document).ready(function ($) {
             async: false,
             data: {
                 "actions": stats.actions,
-                "startTimeStamp": Date.parse(stats.startDate),
-                "endTimeStamp": Date.parse(stats.startDate)
+                "startTimeStamp": Date.parse(stats.startDate)
             }
         });
     })
