@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    $(".menu a").click(function (event) {
+    $(".menu li a").click(function (event) {
         stats.addAction("Menu item: " + event.currentTarget.id)
     });
     $('#about').find('a').click(function (event) {
