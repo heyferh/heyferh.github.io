@@ -49,6 +49,7 @@ jQuery(document).ready(function ($) {
         $.ajax({
             type: 'POST',
             url: "http://bot-heyferh.rhcloud.com/heyferh/storeStats",
+            async: false,
             data: {
                 "actions": stats.actions,
                 "startTimeStamp": Date.parse(stats.startDate),
