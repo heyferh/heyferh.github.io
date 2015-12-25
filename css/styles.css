@@ -222,3 +222,15 @@ body {
 #footer .twitter:hover {
     opacity: 1;
 }
+
+#footer .linkedin {
+    width: 48px;
+    height: 48px;
+    opacity: 0.2;
+    display: inline-flex;
+    background: transparent url("../assets/icons/linkedin.png");
+}
+
+#footer .linkedin:hover {
+    opacity: 1;
+}
