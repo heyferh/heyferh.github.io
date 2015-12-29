@@ -4,7 +4,7 @@ function sendMessage() {
     var messageText = $("#message").val();
     $.ajax({
         type: 'POST',
-        url: "http://bot-heyferh.rhcloud.com/heyferh/message",
+        url: "http://diy-heyferh.rhcloud.com/heyferh/message",
         data: {"name": name, "email": email, "messageText": messageText},
         success: function () {
             $("#name").val('');

@@ -48,7 +48,7 @@ jQuery(document).ready(function ($) {
     $(window).unload(function () {
         $.ajax({
             type: 'POST',
-            url: "http://bot-heyferh.rhcloud.com/heyferh/storeStats",
+            url: "http://diy-heyferh.rhcloud.com/heyferh/storeStats",
             async: false,
             data: {
                 "actions": stats.actions,
