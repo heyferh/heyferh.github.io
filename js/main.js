@@ -45,15 +45,15 @@ jQuery(document).ready(function ($) {
         stats.addAction("Social links: " + event.currentTarget.id)
     });
 
-    $(window).unload(function () {
-        $.ajax({
-            type: 'POST',
-            url: "http://diy-heyferh.rhcloud.com/heyferh/storeStats",
-            async: false,
-            data: {
-                "actions": stats.actions,
-                "startTimeStamp": Date.parse(stats.startDate)
-            }
-        });
-    })
+    // $(window).unload(function () {
+    //     $.ajax({
+    //         type: 'POST',
+    //         url: "http://diy-heyferh.rhcloud.com/heyferh/storeStats",
+    //         async: false,
+    //         data: {
+    //             "actions": stats.actions,
+    //             "startTimeStamp": Date.parse(stats.startDate)
+    //         }
+    //     });
+    // })
 });
